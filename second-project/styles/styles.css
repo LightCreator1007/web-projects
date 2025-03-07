@@ -1,0 +1,87 @@
+h1,h2,p {
+    text-align:center; /*aligning text*/
+}
+
+.moto {
+    font-style: italic;
+}
+
+h1,h2 {
+    margin-top:20px;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    padding: 20px;
+    background-image: url("https://media.istockphoto.com/id/1182393436/vector/fast-food-seamless-pattern-with-vector-line-icons-of-hamburger-pizza-hot-dog-beverage.jpg?s=612x612&w=0&k=20&c=jlj-n_CNsrd13tkHwC7MVo0cGUyyc8YP6wJQdCvMUGw=");
+}
+
+.menu {
+    max-width:640px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    background-color:bisque;
+    padding: 20px 50px 20px 60px;
+    border-radius: 30px;
+}
+
+.item p {
+    display: inline-block;
+    margin-top:30px;
+}
+
+.dish {
+    text-align:left;
+    width:75%;
+}
+
+.price {
+    text-align: right;
+    width:25%;
+}
+
+.icon {
+    display: block;
+    margin: -20px auto;
+    block-size: 85px;
+}
+
+.large_icons {
+    display: block;
+    margin: -15px auto;
+    block-size: 50px;
+}
+
+.divider {
+    height: 3px;
+    border-color:coral;
+    background-color: coral;
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius: 20px;
+}
+
+.divider2 {
+    height: 1px;
+    border-color: coral;
+    background-color: coral;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+/*FOOTER*/
+
+footer {
+    margin-top: 30px;
+}
+
+a {
+    color:coral;
+}
+
+a:hover {
+    color:red;
+}
+
